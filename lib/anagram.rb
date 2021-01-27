@@ -30,7 +30,6 @@ class Anagram
         #return nil 
       #end 
     #end 
-  end 
   
   
 end 

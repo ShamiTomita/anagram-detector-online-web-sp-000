@@ -1,7 +1,8 @@
 # Your code goes here!
 
 class Anagram
- attr_accessor :word, :array
+ attr_accessor :word
+  @@array = ["blah", "blah", "blah"]
   
   def initialize
     

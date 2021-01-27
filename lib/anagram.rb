@@ -4,7 +4,7 @@ class Anagram
  attr_accessor :word
   @@array = ["blah", "blah", "blah"]
   
-  def initialize
+  def initialize(word)
     @word = word  
   end 
   

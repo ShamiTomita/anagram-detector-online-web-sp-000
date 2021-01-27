@@ -16,7 +16,7 @@ class Anagram
       if array_word.sort == matching_word
          matching_array << array_word.join
       end
-      
+      binding.pry
       return matching_array
     end 
   end 

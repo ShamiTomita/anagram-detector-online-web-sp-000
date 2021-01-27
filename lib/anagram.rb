@@ -17,6 +17,7 @@ class Anagram
          matching_array << array_word.join
        else 
       end
+      binding.pry
       return matching_array
     end 
   end 

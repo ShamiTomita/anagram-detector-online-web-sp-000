@@ -12,7 +12,7 @@ class Anagram
     matching_array = []
     matching_word = @word.split("")
     array.each do |x|
-      if x.sort == @word.sort 
+      if x.sort == matching_word
         matching_array << x 
       else 
         return matching_array

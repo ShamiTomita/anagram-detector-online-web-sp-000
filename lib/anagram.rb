@@ -15,6 +15,8 @@ class Anagram
       array_word = x.split("")
       if array_word.sort == matching_word.sort
          matching_array << array_word.join
+       else 
+       end 
       end
       return matching_array
     end 

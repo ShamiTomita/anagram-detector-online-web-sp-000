@@ -13,7 +13,13 @@ class Anagram
     #so this method should take in the word upon initialization and compare to the array 
     matcher = word.split("") #this is where we convert our string to an array so it can be matched 
     @@array.detect each do |x| 
-      x.split("")
+      matchee = x.split("")
+      if matcher.sort == matchee.sort 
+        return x 
+      else 
+        return nil 
+      end 
+    end 
   end 
   
   

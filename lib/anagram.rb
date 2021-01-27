@@ -15,10 +15,8 @@ class Anagram
       array_word = x.split("")
       if array_word.sort == matching_word
           matching_array << x 
-      else 
-        binding.pry
-        return matching_array
-      end 
+      end
+      return matching_array
     end 
   end 
     #take an array of possible anagrams and should 1. return all matches into an array, 2.return an empty array if  there are no matches 

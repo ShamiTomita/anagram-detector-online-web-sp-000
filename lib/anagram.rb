@@ -14,10 +14,7 @@ class Anagram
       if x.split("").sort == word.split("").sort
          matching_array << x
        else
-         
       end
-    
-      return matching_array
     end 
   end 
     #take an array of possible anagrams and should 1. return all matches into an array, 2.return an empty array if  there are no matches 

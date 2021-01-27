@@ -10,7 +10,6 @@ class Anagram
   
   def match(array)
     matching_array = []
-    matching_word = word.split("")
     array.select do |x|
       if x.split("").sort == word.split("").sort
          matching_array << array_word.join

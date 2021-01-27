@@ -1,5 +1,5 @@
 # Your code goes here!
-
+require 'pry'
 class Anagram
  attr_accessor :word
   @@array = ["blah", "blah", "blah"]
@@ -17,6 +17,7 @@ class Anagram
         matching_array << x 
       else 
         return matching_array
+        binding.pry
       end 
     end 
   end 

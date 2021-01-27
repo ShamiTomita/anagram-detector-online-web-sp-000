@@ -14,7 +14,8 @@ class Anagram
     array.each do |x|
       array_word = x.split("")
       if array_word.sort == matching_word
-          matching_array.push("#{x}") 
+         matching_array << array_word.join
+          
       end
       return matching_array
     end 
